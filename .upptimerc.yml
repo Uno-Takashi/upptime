@@ -8,6 +8,9 @@ sites:
   - name: Magical Mirai Setlists
     url: https://magicalmirai-setlists.u-not.app/
 
+workflowSchedule:
+  uptime: "0 * * * *" # 1 時間に 1 回 死活監視
+
 status-website:
   cname: status.u-not.app
   name: u-not.app Status
